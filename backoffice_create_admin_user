@@ -1,0 +1,5 @@
+INSERT_UPDATE BackofficeRole; UID[unique = true]          ; groups(uid)[mode = append]  ; locName                       ; name                          ; backOfficeLoginDisabled; authorities
+                            ; backofficeadministratorrole ; admingroup,itemLockingGroup ; Backoffice Administrator Role ; Backoffice Administrator Role ; FALSE                  ; backofficeworkflowadmin
+							
+INSERT_UPDATE Employee; UID[unique = true]; groups(uid)[mode = append]; password
+                      ; testadmin             ; backofficeadministratorrole;1234
